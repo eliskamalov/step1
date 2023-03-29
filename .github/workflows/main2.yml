@@ -1,5 +1,5 @@
 name: For Presentation 
-on: [push]
+on: [workflow_dispatch]
 jobs:
   print: 
     run-on: ubuntu-latest
