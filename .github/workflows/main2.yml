@@ -2,7 +2,7 @@ name: For Presentation
 on: [workflow_dispatch]
 jobs:
   print: 
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Print to console
         run: echo Thanks for attendance my presentation !
