@@ -1,0 +1,8 @@
+name: For Presentation 
+on: [push]
+jobs:
+  print: 
+    run-on: ubuntu-latest
+    steps: 
+      - name: Print to console
+        run: echo Thanks for attendance my presentation !
