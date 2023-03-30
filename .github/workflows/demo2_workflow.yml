@@ -2,8 +2,7 @@ name: Demo workflow
 on: [workflow_dispatch]
 jobs: 
   print: 
-    runs-on: Ubuntu-latest
-
-  steps: 
-   - name: Print to console
-     run: echo Thanks for attendance my presentation!
+    runs-on: Ubuntu-lates
+    steps: 
+     - name: Print to console
+       run: echo Thanks for attendance my presentation!
