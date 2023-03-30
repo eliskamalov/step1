@@ -10,6 +10,7 @@ jobs:
         run: echo Hello World 
   test: 
     runs-on: Ubuntu-latest
+    needs: build
     steps:
      - name: Test 
        run: echo Hello World!
